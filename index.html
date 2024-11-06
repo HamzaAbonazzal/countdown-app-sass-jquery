@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="./sass/styles.css" />
+  </head>
+  <body class="dark-mode">
+    <div class="timer-container">
+      <h1>Countdown Timer</h1>
+      <div class="input-container">
+        <input type="number" id="minutes-input" placeholder="Minutes" min="0" />
+        <input
+          type="number"
+          id="seconds-input"
+          placeholder="Seconds"
+          min="0"
+          max="59"
+        />
+      </div>
+      <button id="start-button" class="start-button">Start</button>
+      <button id="pause-button" class="start-button">Pause</button>
+      <button id="stop-button" class="start-button">Stop</button>
+      <div id="time-display">00:00</div>
+      <button class="dark-mode-toggle" id="dark-mode-toggle">🌞</button>
+    </div>
+    <script src="./scripts/JQuery.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

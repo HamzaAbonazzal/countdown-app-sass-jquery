@@ -1,0 +1,15 @@
+// layout.scss
+
+.timer-container {
+    background-color: $container-bg-dark;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  
+    body.light-mode & {
+      background-color: $container-bg-light;
+    }
+  }
